@@ -1,0 +1,15 @@
+DATA CLEANING NOTES — Buyhatke Audio Sales Project
+
+1. Imported raw Excel data and checked for duplicates using “Remove Duplicates”.
+2. Standardized columns — ensured correct data types:
+   - Date → Date type
+   - Price, Revenue → Numeric
+   - Product/Brand → Text (Proper Case)
+3. Removed rows with missing product IDs or user fields.
+4. Created helper columns:
+   - WeekNum → =WEEKNUM([@date],2)
+   - Price_Band → =IF(Q2<1000,"Budget",IF(Q2<=3000,"Mid-Range","Premium"))
+   - Refurbished_Flag → =IF(ISNUMBER(SEARCH("refurbished",F2)),"Refurbished","New")
+5. Made a lookup table for replacing all the brand names with their PROPER names.
+5. Verified revenue totals and created “ANALYSIS_INPUT” sheet for Power BI import.
+6. Final check for formatting issues and ensured consistent headers.
