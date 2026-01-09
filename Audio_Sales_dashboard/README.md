@@ -76,8 +76,8 @@ By combining **Excel preprocessing** and **Power BI storytelling**, the analysis
 
 ---
 
-👨‍💻 **Created by:** Nikhil  
-🎓 Business Analyst Internship Project — Buyhatke  
+👨‍💻 **Created by:** Kartik Sharma
+🎓 Data Analyst Internship Project — Buyhatke  
 🧰 Tools: Excel | Power BI | DAX | GitHub  
 📅 Completed: November 2025
 
